@@ -452,6 +452,48 @@ body { background: var(--white); }
 
 
 /*-----------------------------------*\
+ * #ABOUT US
+\*-----------------------------------*/
+
+.about-section {
+   padding-block: var(--section-padding); 
+   background-image: url("../images/AboutUS/about-on-call.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-color: hsla(0, 0%, 0%, 0.7);
+   background-blend-mode: overlay;
+   display: grid;
+   place-items: center;
+   min-height: 600px;
+   text-align: center;
+   padding-top: 5%;
+   position: relative;
+  }
+
+.about-us-text { margin-bottom: 30px;
+color: var(--white); 
+font-size: var(--fs-2);
+margin-top: -2rem;
+text-transform: uppercase;
+}
+
+.about-us-contentainer   {
+  position:absolute;
+  width: 100%;
+  top:4rem; 
+  }
+
+  .about-us-content{
+    color: #cdd0d6;
+  }
+  .about-us-content p{
+  font-weight:100 ;
+  }
+  .about-us-content>h2{
+    color: wheat;
+  }
+/*-----------------------------------*\
  * #POPULAR
 \*-----------------------------------*/
 
