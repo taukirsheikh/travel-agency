@@ -474,7 +474,6 @@ body { background: var(--white); }
 .about-us-text { margin-bottom: 30px;
 color: var(--white); 
 font-size: var(--fs-2);
-margin-top: -2rem;
 text-transform: uppercase;
 }
 
@@ -492,6 +491,14 @@ text-transform: uppercase;
   }
   .about-us-content>h2{
     color: wheat;
+  }
+
+  @media screen and (min-width: 768px) {
+    .about-section { margin-top: 7%; }
+    .about-us-contentainer{
+     top:5rem;
+    }
+    
   }
 /*-----------------------------------*\
  * #POPULAR
